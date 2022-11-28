@@ -47,7 +47,7 @@ body {
     margin-bottom: 53px;
 }
 
-.promo__title{
+.promo__title {
     text-align: center;
     font-weight: 900;
     font-size: 41px;
@@ -281,7 +281,7 @@ body {
     margin: 0 auto;
 }
 
-.present__title{
+.present__title {
     margin-top: 36px;
 }
 
@@ -290,11 +290,34 @@ body {
     margin-top: 30px;
 }
 
-.present__descr{
+.present__descr {
     font-weight: 400;
     font-size: 23px;
     line-height: 20px;
     color: #4A4A4A;
     text-align: center;
     margin-top: 25px;
+}
+
+.footer {
+    background-color: #1A1A1A;
+    padding: 57px 0 69px;
+}
+
+.footer__text,
+.footer__tel {
+    color: #888888;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+
+}
+
+.footer__text a{
+   text-decoration: underline solid;
+}
+
+.footer__text span{
+    margin: 0 5px;
 }
