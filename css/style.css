@@ -9,6 +9,14 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif; 
 */
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+
 .promo {
     background-image: url(../img/main_bg.jpg);
     background-position: center;
@@ -29,7 +37,6 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .logo .logo__text {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
@@ -42,7 +49,6 @@ font-family: 'Roboto Condensed', sans-serif;
 
 .title {
     text-align: center;
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 41px;
     line-height: 41px;
@@ -51,7 +57,6 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .simple .title__big {
-    font-family: 'Roboto';
     color: #fff;
     font-weight: 900;
     font-size: 80px;
@@ -63,7 +68,6 @@ font-family: 'Roboto Condensed', sans-serif;
 .promo__text {
     margin: 22px 0 72px;
     text-align: center;
-    font-family: 'Roboto';
     color: #FFFFFF;
     font-weight: 300;
     font-size: 21px;
@@ -95,7 +99,6 @@ font-family: 'Roboto Condensed', sans-serif;
 .more .more__text {
     text-transform: uppercase;
     color: #fff;
-    font-family: 'Roboto';
     font-weight: 100;
     font-size: 15px;
     text-align: center;
@@ -114,7 +117,6 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .waiting__title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -133,7 +135,6 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .waiting__subtitle {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 23px;
     line-height: 20px;
@@ -144,30 +145,60 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 .waiting__wrapper {
+    display: flex;
+    justify-content: space-between;
     margin-top: 45px;
-    padding: 0 6px;
 }
 
 .waiting__item {
-    display: inline-block;
     max-width: 342px;
     text-align: center;
-    vertical-align: top;
 }
 
 .waiting__img {
     width: 100%;
 }
 
-.waiting__item+.waiting__item {
-    margin-left: 46px;
-}
-
 .waiting__descr {
     margin-top: 26px;
-    font-family: 'Roboto';
     font-weight: 300;
     font-size: 15px;
     line-height: 21px;
     color: #4A4A4A;
+}
+
+.optimization {
+    padding: 108px 0 74px;
+    background-image: url(../img/woman_bg.jpg);
+    background-position: bottom 0 left 150px;
+    background-repeat: no-repeat;
+
+}
+
+.optimization__wrapper {
+    display: flex;
+    justify-content: end;
+}
+
+.optimization__inner {
+    max-width: 750px;
+}
+
+.optimization__title {
+    font-weight: 900;
+    font-size: 30px;
+    color: #299CBD;
+    text-transform: uppercase;
+}
+
+.optimization__text,
+.optimization__text-bold  {
+    font-size: 17px;
+    color: #4A4A4A;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+.optimization__text-bold {
+    font-weight: 700;
 }
