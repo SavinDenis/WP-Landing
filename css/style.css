@@ -48,7 +48,6 @@ font-family: 'Roboto Condensed', sans-serif;
     line-height: 41px;
     color: #F9BF3B;
     text-transform: uppercase;
-
 }
 
 .simple .title__big {
@@ -75,7 +74,6 @@ font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     color: #F9BF3B;
     font-weight: 700;
-
 }
 
 .promo .promo__btn {
@@ -105,7 +103,71 @@ font-family: 'Roboto Condensed', sans-serif;
     line-height: 24px;
 }
 
-.more .more__img{
+.more .more__img {
     margin: 0 auto;
     display: block;
+}
+
+.waiting {
+    padding: 85px 0 75px;
+    background-color: #EFEFEF;
+}
+
+.waiting__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #252525;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.waiting .waiting__line {
+    height: 4px;
+    width: 217px;
+    background-color: #F9BF3B;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting__subtitle {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    margin-top: 18px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+
+.waiting__wrapper {
+    margin-top: 45px;
+    padding: 0 6px;
+}
+
+.waiting__item {
+    display: inline-block;
+    max-width: 342px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.waiting__img {
+    width: 100%;
+}
+
+.waiting__item+.waiting__item {
+    margin-left: 46px;
+}
+
+.waiting__descr {
+    margin-top: 26px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #4A4A4A;
 }
