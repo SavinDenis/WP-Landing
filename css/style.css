@@ -80,7 +80,8 @@ body {
     font-weight: 700;
 }
 
-.promo .promo__btn {
+.promo__btn,
+.gift__btn {
     display: block;
     margin: 0 auto;
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
@@ -242,10 +243,30 @@ body {
 }
 
 
-.finish__descr{
+.finish__descr {
     margin-top: 24px;
     color: #EFEFEF;
     text-align: center;
     line-height: 20px;
     font-size: 17px;
 }
+
+.gift {
+    background-color: #EFEFEF;
+    padding: 85px 0;
+}
+
+.gift__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gif__descr {
+    text-align: center;
+    max-width: 1160px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    margin: 45px 0 51px;
+}
+
