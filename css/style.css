@@ -172,20 +172,28 @@ body {
 }
 
 .optimization {
-    padding: 108px 0 74px;
-    background-image: url(../img/woman_bg.jpg);
-    background-position: bottom 0 left 150px;
-    background-repeat: no-repeat;
+   
+    
 
 }
 
 .optimization__wrapper {
+    position: relative;
     display: flex;
-    justify-content: end;
+    justify-content: end;  
 }
 
+.optimization_bg{
+    position: absolute;
+    bottom: 0; 
+    left: -200px;
+    z-index: -1;
+}
+
+
 .optimization__inner {
-    max-width: 750px;
+    max-width: 750px; 
+    padding: 108px 0 74px;
 }
 
 .optimization__title,
